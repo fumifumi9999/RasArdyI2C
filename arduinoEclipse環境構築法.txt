@@ -1,0 +1,11 @@
+環境はdue用：
+
+１．好きなeclipse(pleiades)を入れる
+２．新しいソフトのインストールで「追加」
+３．名前をArduinoEclipseとかいれてURLにhttp://www.baeyens.it/eclipse/V3を入れてArduino Eclipse Extensionsをインストール
+４．window->preference->arduino->platforms and boards->arduino->arduino SAM Boards->最新版にチェック
+（エラーが出たらうまくダウンロードできてないので自前でダウンロードして適切なフォルダに入れる）
+５．window->preference->arduino->Library Manager->due_canとdue_timerを最新バージョンを選ぶ
+６．arm-none-eabiのコンパイラtoolchainをダウンロードしてきてコンパイルエラーが出ているパスにコピーする
+７．コンパイルしてエラーがでないことを確認
+８．includeのパスエラーでエディタ上に警告やエラーが出る場合は、再起動するとなぜか直るときがある
