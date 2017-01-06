@@ -80,4 +80,3 @@ void receiveData(int byteCount) {
     Serial.println(++plus);
   }
 }
-
